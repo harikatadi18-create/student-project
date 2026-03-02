@@ -1,0 +1,74 @@
+/* ----------- Global Background ----------- */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ----------- Card Styling ----------- */
+.card {
+    border-radius: 15px;
+    border: none;
+    background-color: #ffffff;
+}
+
+/* ----------- Navbar Styling ----------- */
+.navbar {
+    background: linear-gradient(90deg, #000428, #004e92) !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ----------- Buttons ----------- */
+.btn-primary {
+    background-color: #2a5298;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1e3c72;
+}
+
+.btn-success {
+    background-color: #11998e;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #0f7f75;
+}
+
+.btn-warning {
+    background-color: #f7971e;
+    border: none;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #eb3349;
+    border: none;
+}
+
+/* ----------- Table Styling ----------- */
+.table thead {
+    background-color: #1e3c72;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f2f6ff;
+}
+
+/* ----------- Form Input Focus ----------- */
+.form-control:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 5px rgba(42, 82, 152, 0.5);
+}
+
+/* ----------- Center Card Position ----------- */
+.container {
+    padding-top: 40px;
+}
